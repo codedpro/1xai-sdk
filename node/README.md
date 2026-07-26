@@ -5,11 +5,11 @@ base URL for OpenAI, Anthropic Claude, Google Gemini and DeepSeek — no VPN, no
 foreign card, billed in Toman.
 
 ```bash
-npm install onexai
+npm install 1xai-sdk
 ```
 
 ```ts
-import { OneXAI, costOfResponse, formatCost } from "onexai";
+import { OneXAI, costOfResponse, formatCost } from "1xai-sdk";
 
 const client = new OneXAI(); // reads ONEXAI_API_KEY, falls back to OPENAI_API_KEY
 
@@ -66,7 +66,7 @@ ships with the package so the helper works offline; call `fetchPricing()` for li
 prices.
 
 ```ts
-import { estimateCost, fetchPricing } from "onexai";
+import { estimateCost, fetchPricing } from "1xai-sdk";
 
 estimateCost("claude-opus-4-5", 50_000, 2_000).totalToman; // 67068
 estimateCost("gpt-4o-mini", 1000, 500, await fetchPricing()).totalToman;
@@ -82,7 +82,7 @@ You never choose a provider — the model name does it. `claude-*` → Anthropic
 `gemini-*`/`gemma-*` → Google, `deepseek-*` → DeepSeek, everything else → OpenAI.
 
 ```ts
-import { routeProvider } from "onexai";
+import { routeProvider } from "1xai-sdk";
 routeProvider("claude-opus-4-5"); // "anthropic"
 ```
 

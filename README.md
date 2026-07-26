@@ -6,8 +6,8 @@ Anthropic Claude, Google Gemini and DeepSeek** — no VPN, no foreign card, bill
 in Toman.
 
 ```bash
-pip install onexai        # Python
-npm install onexai        # Node / TypeScript
+pip install 1xai-sdk        # Python
+npm install 1xai-sdk        # Node / TypeScript
 ```
 
 The packages are deliberately thin. **This README is the actual product**: every
@@ -247,7 +247,7 @@ print(cost_of_response(reply))   # -> 102 Toman (gpt-4o-mini, 41in/230out)
 ```
 
 ```ts
-import { OneXAI, costOfResponse, formatCost } from "onexai";
+import { OneXAI, costOfResponse, formatCost } from "1xai-sdk";
 
 const client = new OneXAI();
 
@@ -467,7 +467,7 @@ print(message.usage.cache_read_input_tokens)
 
 ```ts
 import Anthropic from "@anthropic-ai/sdk";
-import { anthropicConfig } from "onexai";
+import { anthropicConfig } from "1xai-sdk";
 
 const claude = new Anthropic(anthropicConfig());
 ```

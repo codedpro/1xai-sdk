@@ -19,7 +19,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { GoogleGenAI } from "@google/genai";
 
-import { anthropicConfig, geminiConfig } from "onexai";
+import { anthropicConfig, geminiConfig } from "1xai-sdk";
 
 const BIG_DOCUMENT = "...".repeat(1000); // something worth caching
 

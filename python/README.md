@@ -5,7 +5,7 @@ base URL for OpenAI, Anthropic Claude, Google Gemini and DeepSeek — no VPN, no
 foreign card, billed in Toman.
 
 ```bash
-pip install onexai
+pip install 1xai-sdk
 ```
 
 ```python
@@ -80,7 +80,7 @@ The OpenAI-compatible path silently drops provider-specific features. When you n
 them, use the native endpoints:
 
 ```python
-from onexai import anthropic_client       # pip install onexai[anthropic]
+from onexai import anthropic_client       # pip install '1xai-sdk[anthropic]
 
 claude = anthropic_client()               # -> https://1xai.ir/anthropic
 msg = claude.messages.create(

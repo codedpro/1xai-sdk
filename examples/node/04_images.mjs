@@ -9,7 +9,7 @@
 
 import { writeFile } from "node:fs/promises";
 
-import { OneXAI } from "onexai";
+import { OneXAI } from "1xai-sdk";
 
 const client = new OneXAI();
 

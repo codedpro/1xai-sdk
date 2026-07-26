@@ -43,7 +43,7 @@ export function resolveKey(apiKey?: string): string | undefined {
  * An `OpenAI` client wired to 1xAi.
  *
  * ```ts
- * import { OneXAI, costOfResponse, formatCost } from "onexai";
+ * import { OneXAI, costOfResponse, formatCost } from "1xai-sdk";
  *
  * const client = new OneXAI();           // reads ONEXAI_API_KEY / OPENAI_API_KEY
  * const reply = await client.chat.completions.create({
@@ -83,7 +83,7 @@ export function createClient(options: ClientOptions = {}): OneXAI {
  *
  * ```ts
  * import Anthropic from "@anthropic-ai/sdk";
- * import { anthropicConfig } from "onexai";
+ * import { anthropicConfig } from "1xai-sdk";
  *
  * const claude = new Anthropic(anthropicConfig());
  * ```
@@ -106,7 +106,7 @@ export function anthropicConfig(options: ClientOptions = {}): {
  *
  * ```ts
  * import { GoogleGenAI } from "@google/genai";
- * import { geminiConfig } from "onexai";
+ * import { geminiConfig } from "1xai-sdk";
  *
  * const gemini = new GoogleGenAI(geminiConfig());
  * ```

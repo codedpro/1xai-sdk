@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "onexai"
+name = "1xai-sdk"
 version = "0.1.0"
 description = "Thin, drop-in Python SDK for the 1xAi gateway (https://1xai.ir) — OpenAI, Claude, Gemini and DeepSeek from inside Iran, billed in Toman."
 readme = "README.md"

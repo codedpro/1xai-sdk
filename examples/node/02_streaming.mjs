@@ -9,7 +9,7 @@
  *   node 02_streaming.mjs
  */
 
-import { OneXAI, costOfResponse, formatCost } from "onexai";
+import { OneXAI, costOfResponse, formatCost } from "1xai-sdk";
 
 const client = new OneXAI();
 

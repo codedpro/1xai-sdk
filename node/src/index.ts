@@ -7,7 +7,7 @@
  * gateway's Persian errors into actionable English.
  *
  * ```ts
- * import { OneXAI, costOfResponse, formatCost } from "onexai";
+ * import { OneXAI, costOfResponse, formatCost } from "1xai-sdk";
  *
  * const client = new OneXAI(); // reads ONEXAI_API_KEY, falls back to OPENAI_API_KEY
  * const reply = await client.chat.completions.create({

@@ -13,7 +13,7 @@
  *   node 05_cost_control.mjs
  */
 
-import { OneXAI, costOfResponse, estimateCost } from "onexai";
+import { OneXAI, costOfResponse, estimateCost } from "1xai-sdk";
 
 const BUDGET_TOMAN = 50_000;
 const MODEL = "gpt-4o-mini";

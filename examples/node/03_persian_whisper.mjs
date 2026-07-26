@@ -17,7 +17,7 @@
 import { createReadStream } from "node:fs";
 import { writeFile } from "node:fs/promises";
 
-import { OneXAI } from "onexai";
+import { OneXAI } from "1xai-sdk";
 
 const client = new OneXAI();
 const path = process.argv[2] ?? "voice.m4a";

@@ -8,7 +8,7 @@
  *   node 06_failover.mjs
  */
 
-import { OneXAI, costOfResponse, explain, formatCost } from "onexai";
+import { OneXAI, costOfResponse, explain, formatCost } from "1xai-sdk";
 
 const client = new OneXAI();
 
