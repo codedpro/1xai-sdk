@@ -9,7 +9,7 @@ import type { PricingSnapshot } from "./types.js";
 
 export const PRICING_SNAPSHOT: PricingSnapshot = {
   "source": "https://1xai.ir/api/models",
-  "generated_at": "2026-07-26T15:49:35Z",
+  "generated_at": "2026-07-26T16:12:18Z",
   "currency": "IRT",
   "unit": "toman_per_1k_tokens",
   "note": "Token-billed models only. Audio (per second) and image (per image) endpoints are not priced in this catalogue.",
@@ -17,1363 +17,1363 @@ export const PRICING_SNAPSHOT: PricingSnapshot = {
     {
       "provider": "anthropic",
       "model": "claude-3-5-haiku",
-      "input_per_1k_toman": 178.848,
-      "output_per_1k_toman": 894.24
+      "input_per_1k_toman": 176.352,
+      "output_per_1k_toman": 881.76
     },
     {
       "provider": "anthropic",
       "model": "claude-3-5-sonnet",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "anthropic",
       "model": "claude-3-7-sonnet-20250219",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "anthropic",
       "model": "claude-3-haiku-20240307",
-      "input_per_1k_toman": 55.89,
-      "output_per_1k_toman": 279.45
+      "input_per_1k_toman": 55.11,
+      "output_per_1k_toman": 275.55
     },
     {
       "provider": "anthropic",
       "model": "claude-3-opus-20240229",
-      "input_per_1k_toman": 3353.4,
-      "output_per_1k_toman": 16767.0
+      "input_per_1k_toman": 3306.6,
+      "output_per_1k_toman": 16533.0
     },
     {
       "provider": "anthropic",
       "model": "claude-4-opus-20250514",
-      "input_per_1k_toman": 3353.4,
-      "output_per_1k_toman": 16767.0
+      "input_per_1k_toman": 3306.6,
+      "output_per_1k_toman": 16533.0
     },
     {
       "provider": "anthropic",
       "model": "claude-4-sonnet-20250514",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "anthropic",
       "model": "claude-fable-5",
-      "input_per_1k_toman": 2235.6,
-      "output_per_1k_toman": 11178.0
+      "input_per_1k_toman": 2204.4,
+      "output_per_1k_toman": 11022.0
     },
     {
       "provider": "anthropic",
       "model": "claude-haiku-4-5",
-      "input_per_1k_toman": 223.56,
-      "output_per_1k_toman": 1117.8
+      "input_per_1k_toman": 220.44,
+      "output_per_1k_toman": 1102.2
     },
     {
       "provider": "anthropic",
       "model": "claude-haiku-4-5-20251001",
-      "input_per_1k_toman": 223.56,
-      "output_per_1k_toman": 1117.8
+      "input_per_1k_toman": 220.44,
+      "output_per_1k_toman": 1102.2
     },
     {
       "provider": "anthropic",
       "model": "claude-opus-4-1",
-      "input_per_1k_toman": 3353.4,
-      "output_per_1k_toman": 16767.0
+      "input_per_1k_toman": 3306.6,
+      "output_per_1k_toman": 16533.0
     },
     {
       "provider": "anthropic",
       "model": "claude-opus-4-1-20250805",
-      "input_per_1k_toman": 3353.4,
-      "output_per_1k_toman": 16767.0
+      "input_per_1k_toman": 3306.6,
+      "output_per_1k_toman": 16533.0
     },
     {
       "provider": "anthropic",
       "model": "claude-opus-4-20250514",
-      "input_per_1k_toman": 3353.4,
-      "output_per_1k_toman": 16767.0
+      "input_per_1k_toman": 3306.6,
+      "output_per_1k_toman": 16533.0
     },
     {
       "provider": "anthropic",
       "model": "claude-opus-4-5",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "anthropic",
       "model": "claude-opus-4-5-20251101",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "anthropic",
       "model": "claude-opus-4-6",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "anthropic",
       "model": "claude-opus-4-6-20260205",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "anthropic",
       "model": "claude-opus-4-7",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "anthropic",
       "model": "claude-opus-4-7-20260416",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "anthropic",
       "model": "claude-opus-4-8",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "anthropic",
       "model": "claude-opus-5",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "anthropic",
       "model": "claude-sonnet-4-20250514",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "anthropic",
       "model": "claude-sonnet-4-5",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "anthropic",
       "model": "claude-sonnet-4-5-20250929",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "anthropic",
       "model": "claude-sonnet-4-6",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "anthropic",
       "model": "claude-sonnet-5",
-      "input_per_1k_toman": 447.12,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 440.88,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "deepseek",
       "model": "deepseek-chat",
-      "input_per_1k_toman": 60.3612,
-      "output_per_1k_toman": 245.916
+      "input_per_1k_toman": 59.5188,
+      "output_per_1k_toman": 242.484
     },
     {
       "provider": "deepseek",
       "model": "deepseek-coder",
-      "input_per_1k_toman": 31.2984,
-      "output_per_1k_toman": 62.5968
+      "input_per_1k_toman": 30.8616,
+      "output_per_1k_toman": 61.7232
     },
     {
       "provider": "deepseek",
       "model": "deepseek-r1",
-      "input_per_1k_toman": 122.958,
-      "output_per_1k_toman": 489.5964
+      "input_per_1k_toman": 121.242,
+      "output_per_1k_toman": 482.7636
     },
     {
       "provider": "deepseek",
       "model": "deepseek-reasoner",
-      "input_per_1k_toman": 122.958,
-      "output_per_1k_toman": 489.5964
+      "input_per_1k_toman": 121.242,
+      "output_per_1k_toman": 482.7636
     },
     {
       "provider": "deepseek",
       "model": "deepseek-v3",
-      "input_per_1k_toman": 60.3612,
-      "output_per_1k_toman": 245.916
+      "input_per_1k_toman": 59.5188,
+      "output_per_1k_toman": 242.484
     },
     {
       "provider": "deepseek",
       "model": "deepseek-v3.2",
-      "input_per_1k_toman": 62.5968,
-      "output_per_1k_toman": 89.424
+      "input_per_1k_toman": 61.7232,
+      "output_per_1k_toman": 88.176
     },
     {
       "provider": "deepseek",
       "model": "deepseek-v4-flash",
-      "input_per_1k_toman": 31.2984,
-      "output_per_1k_toman": 62.5968
+      "input_per_1k_toman": 30.8616,
+      "output_per_1k_toman": 61.7232
     },
     {
       "provider": "deepseek",
       "model": "deepseek-v4-pro",
-      "input_per_1k_toman": 97.2486,
-      "output_per_1k_toman": 194.4972
+      "input_per_1k_toman": 95.8914,
+      "output_per_1k_toman": 191.7828
     },
     {
       "provider": "gemini",
       "model": "claude-3-5-haiku",
-      "input_per_1k_toman": 223.56,
-      "output_per_1k_toman": 1117.8
+      "input_per_1k_toman": 220.44,
+      "output_per_1k_toman": 1102.2
     },
     {
       "provider": "gemini",
       "model": "claude-3-5-haiku@20241022",
-      "input_per_1k_toman": 223.56,
-      "output_per_1k_toman": 1117.8
+      "input_per_1k_toman": 220.44,
+      "output_per_1k_toman": 1102.2
     },
     {
       "provider": "gemini",
       "model": "claude-3-5-sonnet",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "gemini",
       "model": "claude-3-5-sonnet@20240620",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "gemini",
       "model": "claude-3-7-sonnet@20250219",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "gemini",
       "model": "claude-3-haiku",
-      "input_per_1k_toman": 55.89,
-      "output_per_1k_toman": 279.45
+      "input_per_1k_toman": 55.11,
+      "output_per_1k_toman": 275.55
     },
     {
       "provider": "gemini",
       "model": "claude-3-haiku@20240307",
-      "input_per_1k_toman": 55.89,
-      "output_per_1k_toman": 279.45
+      "input_per_1k_toman": 55.11,
+      "output_per_1k_toman": 275.55
     },
     {
       "provider": "gemini",
       "model": "claude-3-opus",
-      "input_per_1k_toman": 3353.4,
-      "output_per_1k_toman": 16767.0
+      "input_per_1k_toman": 3306.6,
+      "output_per_1k_toman": 16533.0
     },
     {
       "provider": "gemini",
       "model": "claude-3-opus@20240229",
-      "input_per_1k_toman": 3353.4,
-      "output_per_1k_toman": 16767.0
+      "input_per_1k_toman": 3306.6,
+      "output_per_1k_toman": 16533.0
     },
     {
       "provider": "gemini",
       "model": "claude-3-sonnet",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "gemini",
       "model": "claude-3-sonnet@20240229",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "gemini",
       "model": "claude-fable-5",
-      "input_per_1k_toman": 2235.6,
-      "output_per_1k_toman": 11178.0
+      "input_per_1k_toman": 2204.4,
+      "output_per_1k_toman": 11022.0
     },
     {
       "provider": "gemini",
       "model": "claude-fable-5@default",
-      "input_per_1k_toman": 2235.6,
-      "output_per_1k_toman": 11178.0
+      "input_per_1k_toman": 2204.4,
+      "output_per_1k_toman": 11022.0
     },
     {
       "provider": "gemini",
       "model": "claude-haiku-4-5",
-      "input_per_1k_toman": 223.56,
-      "output_per_1k_toman": 1117.8
+      "input_per_1k_toman": 220.44,
+      "output_per_1k_toman": 1102.2
     },
     {
       "provider": "gemini",
       "model": "claude-haiku-4-5@20251001",
-      "input_per_1k_toman": 223.56,
-      "output_per_1k_toman": 1117.8
+      "input_per_1k_toman": 220.44,
+      "output_per_1k_toman": 1102.2
     },
     {
       "provider": "gemini",
       "model": "claude-opus-4",
-      "input_per_1k_toman": 3353.4,
-      "output_per_1k_toman": 16767.0
+      "input_per_1k_toman": 3306.6,
+      "output_per_1k_toman": 16533.0
     },
     {
       "provider": "gemini",
       "model": "claude-opus-4-1",
-      "input_per_1k_toman": 3353.4,
-      "output_per_1k_toman": 16767.0
+      "input_per_1k_toman": 3306.6,
+      "output_per_1k_toman": 16533.0
     },
     {
       "provider": "gemini",
       "model": "claude-opus-4-1@20250805",
-      "input_per_1k_toman": 3353.4,
-      "output_per_1k_toman": 16767.0
+      "input_per_1k_toman": 3306.6,
+      "output_per_1k_toman": 16533.0
     },
     {
       "provider": "gemini",
       "model": "claude-opus-4-5",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "gemini",
       "model": "claude-opus-4-5@20251101",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "gemini",
       "model": "claude-opus-4-6",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "gemini",
       "model": "claude-opus-4-6@default",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "gemini",
       "model": "claude-opus-4-7",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "gemini",
       "model": "claude-opus-4-7@default",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "gemini",
       "model": "claude-opus-4-8",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "gemini",
       "model": "claude-opus-4-8@default",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "gemini",
       "model": "claude-opus-4@20250514",
-      "input_per_1k_toman": 3353.4,
-      "output_per_1k_toman": 16767.0
+      "input_per_1k_toman": 3306.6,
+      "output_per_1k_toman": 16533.0
     },
     {
       "provider": "gemini",
       "model": "claude-opus-5",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "gemini",
       "model": "claude-opus-5@default",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 5589.0
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 5511.0
     },
     {
       "provider": "gemini",
       "model": "claude-sonnet-4",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "gemini",
       "model": "claude-sonnet-4-5",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "gemini",
       "model": "claude-sonnet-4-5@20250929",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "gemini",
       "model": "claude-sonnet-4-6",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "gemini",
       "model": "claude-sonnet-4-6@default",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "gemini",
       "model": "claude-sonnet-4@20250514",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "gemini",
       "model": "claude-sonnet-5",
-      "input_per_1k_toman": 447.12,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 440.88,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "gemini",
       "model": "claude-sonnet-5@default",
-      "input_per_1k_toman": 447.12,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 440.88,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "gemini",
       "model": "gemini-1.5-flash",
-      "input_per_1k_toman": 16.767,
+      "input_per_1k_toman": 16.533,
       "output_per_1k_toman": 0.0
     },
     {
       "provider": "gemini",
       "model": "gemini-2.0-flash",
-      "input_per_1k_toman": 22.356,
-      "output_per_1k_toman": 89.424
+      "input_per_1k_toman": 22.044,
+      "output_per_1k_toman": 88.176
     },
     {
       "provider": "gemini",
       "model": "gemini-2.0-flash-001",
-      "input_per_1k_toman": 22.356,
-      "output_per_1k_toman": 89.424
+      "input_per_1k_toman": 22.044,
+      "output_per_1k_toman": 88.176
     },
     {
       "provider": "gemini",
       "model": "gemini-2.0-flash-lite",
-      "input_per_1k_toman": 16.767,
-      "output_per_1k_toman": 67.068
+      "input_per_1k_toman": 16.533,
+      "output_per_1k_toman": 66.132
     },
     {
       "provider": "gemini",
       "model": "gemini-2.0-flash-lite-001",
-      "input_per_1k_toman": 16.767,
-      "output_per_1k_toman": 67.068
+      "input_per_1k_toman": 16.533,
+      "output_per_1k_toman": 66.132
     },
     {
       "provider": "gemini",
       "model": "gemini-2.5-computer-use-preview-10-2025",
-      "input_per_1k_toman": 279.45,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 275.55,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "gemini",
       "model": "gemini-2.5-flash",
-      "input_per_1k_toman": 67.068,
-      "output_per_1k_toman": 558.9
+      "input_per_1k_toman": 66.132,
+      "output_per_1k_toman": 551.1
     },
     {
       "provider": "gemini",
       "model": "gemini-2.5-flash-image",
-      "input_per_1k_toman": 67.068,
-      "output_per_1k_toman": 6706.8
+      "input_per_1k_toman": 66.132,
+      "output_per_1k_toman": 6613.2
     },
     {
       "provider": "gemini",
       "model": "gemini-2.5-flash-lite",
-      "input_per_1k_toman": 22.356,
-      "output_per_1k_toman": 89.424
+      "input_per_1k_toman": 22.044,
+      "output_per_1k_toman": 88.176
     },
     {
       "provider": "gemini",
       "model": "gemini-2.5-flash-lite-preview-06-17",
-      "input_per_1k_toman": 22.356,
-      "output_per_1k_toman": 89.424
+      "input_per_1k_toman": 22.044,
+      "output_per_1k_toman": 88.176
     },
     {
       "provider": "gemini",
       "model": "gemini-2.5-flash-lite-preview-09-2025",
-      "input_per_1k_toman": 22.356,
-      "output_per_1k_toman": 89.424
+      "input_per_1k_toman": 22.044,
+      "output_per_1k_toman": 88.176
     },
     {
       "provider": "gemini",
       "model": "gemini-2.5-flash-native-audio-latest",
-      "input_per_1k_toman": 67.068,
-      "output_per_1k_toman": 558.9
+      "input_per_1k_toman": 66.132,
+      "output_per_1k_toman": 551.1
     },
     {
       "provider": "gemini",
       "model": "gemini-2.5-flash-native-audio-preview-09-2025",
-      "input_per_1k_toman": 67.068,
-      "output_per_1k_toman": 558.9
+      "input_per_1k_toman": 66.132,
+      "output_per_1k_toman": 551.1
     },
     {
       "provider": "gemini",
       "model": "gemini-2.5-flash-native-audio-preview-12-2025",
-      "input_per_1k_toman": 67.068,
-      "output_per_1k_toman": 558.9
+      "input_per_1k_toman": 66.132,
+      "output_per_1k_toman": 551.1
     },
     {
       "provider": "gemini",
       "model": "gemini-2.5-flash-preview-09-2025",
-      "input_per_1k_toman": 67.068,
-      "output_per_1k_toman": 558.9
+      "input_per_1k_toman": 66.132,
+      "output_per_1k_toman": 551.1
     },
     {
       "provider": "gemini",
       "model": "gemini-2.5-pro",
-      "input_per_1k_toman": 279.45,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 275.55,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "gemini",
       "model": "gemini-2.5-pro-preview-tts",
-      "input_per_1k_toman": 279.45,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 275.55,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "gemini",
       "model": "gemini-3-flash-preview",
-      "input_per_1k_toman": 111.78,
-      "output_per_1k_toman": 670.68
+      "input_per_1k_toman": 110.22,
+      "output_per_1k_toman": 661.32
     },
     {
       "provider": "gemini",
       "model": "gemini-3-pro-image",
-      "input_per_1k_toman": 447.12,
-      "output_per_1k_toman": 26827.2
+      "input_per_1k_toman": 440.88,
+      "output_per_1k_toman": 26452.8
     },
     {
       "provider": "gemini",
       "model": "gemini-3-pro-image-preview",
-      "input_per_1k_toman": 447.12,
-      "output_per_1k_toman": 26827.2
+      "input_per_1k_toman": 440.88,
+      "output_per_1k_toman": 26452.8
     },
     {
       "provider": "gemini",
       "model": "gemini-3-pro-preview",
-      "input_per_1k_toman": 447.12,
-      "output_per_1k_toman": 2682.72
+      "input_per_1k_toman": 440.88,
+      "output_per_1k_toman": 2645.28
     },
     {
       "provider": "gemini",
       "model": "gemini-3.1-flash-image",
-      "input_per_1k_toman": 67.068,
-      "output_per_1k_toman": 6706.8
+      "input_per_1k_toman": 66.132,
+      "output_per_1k_toman": 6613.2
     },
     {
       "provider": "gemini",
       "model": "gemini-3.1-flash-image-preview",
-      "input_per_1k_toman": 67.068,
-      "output_per_1k_toman": 6706.8
+      "input_per_1k_toman": 66.132,
+      "output_per_1k_toman": 6613.2
     },
     {
       "provider": "gemini",
       "model": "gemini-3.1-flash-lite",
-      "input_per_1k_toman": 55.89,
-      "output_per_1k_toman": 335.34
+      "input_per_1k_toman": 55.11,
+      "output_per_1k_toman": 330.66
     },
     {
       "provider": "gemini",
       "model": "gemini-3.1-flash-lite-image",
-      "input_per_1k_toman": 44.712,
-      "output_per_1k_toman": 4471.2
+      "input_per_1k_toman": 44.088,
+      "output_per_1k_toman": 4408.8
     },
     {
       "provider": "gemini",
       "model": "gemini-3.1-flash-lite-preview",
-      "input_per_1k_toman": 55.89,
-      "output_per_1k_toman": 335.34
+      "input_per_1k_toman": 55.11,
+      "output_per_1k_toman": 330.66
     },
     {
       "provider": "gemini",
       "model": "gemini-3.1-flash-live-preview",
-      "input_per_1k_toman": 167.67,
-      "output_per_1k_toman": 1006.02
+      "input_per_1k_toman": 165.33,
+      "output_per_1k_toman": 991.98
     },
     {
       "provider": "gemini",
       "model": "gemini-3.1-pro-preview",
-      "input_per_1k_toman": 447.12,
-      "output_per_1k_toman": 2682.72
+      "input_per_1k_toman": 440.88,
+      "output_per_1k_toman": 2645.28
     },
     {
       "provider": "gemini",
       "model": "gemini-3.1-pro-preview-customtools",
-      "input_per_1k_toman": 447.12,
-      "output_per_1k_toman": 2682.72
+      "input_per_1k_toman": 440.88,
+      "output_per_1k_toman": 2645.28
     },
     {
       "provider": "gemini",
       "model": "gemini-3.5-flash",
-      "input_per_1k_toman": 335.34,
-      "output_per_1k_toman": 2012.04
+      "input_per_1k_toman": 330.66,
+      "output_per_1k_toman": 1983.96
     },
     {
       "provider": "gemini",
       "model": "gemini-3.5-flash-lite",
-      "input_per_1k_toman": 67.068,
-      "output_per_1k_toman": 558.9
+      "input_per_1k_toman": 66.132,
+      "output_per_1k_toman": 551.1
     },
     {
       "provider": "gemini",
       "model": "gemini-3.6-flash",
-      "input_per_1k_toman": 335.34,
-      "output_per_1k_toman": 1676.7
+      "input_per_1k_toman": 330.66,
+      "output_per_1k_toman": 1653.3
     },
     {
       "provider": "gemini",
       "model": "gemini-embedding-001",
-      "input_per_1k_toman": 33.534,
+      "input_per_1k_toman": 33.066,
       "output_per_1k_toman": 0.0
     },
     {
       "provider": "gemini",
       "model": "gemini-embedding-2",
-      "input_per_1k_toman": 44.712,
+      "input_per_1k_toman": 44.088,
       "output_per_1k_toman": 0.0
     },
     {
       "provider": "gemini",
       "model": "gemini-embedding-2-preview",
-      "input_per_1k_toman": 44.712,
+      "input_per_1k_toman": 44.088,
       "output_per_1k_toman": 0.0
     },
     {
       "provider": "gemini",
       "model": "gemini-exp-1206",
-      "input_per_1k_toman": 67.068,
-      "output_per_1k_toman": 558.9
+      "input_per_1k_toman": 66.132,
+      "output_per_1k_toman": 551.1
     },
     {
       "provider": "gemini",
       "model": "gemini-flash-latest",
-      "input_per_1k_toman": 67.068,
-      "output_per_1k_toman": 558.9
+      "input_per_1k_toman": 66.132,
+      "output_per_1k_toman": 551.1
     },
     {
       "provider": "gemini",
       "model": "gemini-flash-lite-latest",
-      "input_per_1k_toman": 22.356,
-      "output_per_1k_toman": 89.424
+      "input_per_1k_toman": 22.044,
+      "output_per_1k_toman": 88.176
     },
     {
       "provider": "gemini",
       "model": "gemini-gemma-2-27b-it",
-      "input_per_1k_toman": 78.246,
-      "output_per_1k_toman": 234.738
+      "input_per_1k_toman": 77.154,
+      "output_per_1k_toman": 231.462
     },
     {
       "provider": "gemini",
       "model": "gemini-gemma-2-9b-it",
-      "input_per_1k_toman": 78.246,
-      "output_per_1k_toman": 234.738
+      "input_per_1k_toman": 77.154,
+      "output_per_1k_toman": 231.462
     },
     {
       "provider": "gemini",
       "model": "gemini-omni-flash-preview",
-      "input_per_1k_toman": 335.34,
-      "output_per_1k_toman": 2012.04
+      "input_per_1k_toman": 330.66,
+      "output_per_1k_toman": 1983.96
     },
     {
       "provider": "gemini",
       "model": "gemini-pro-latest",
-      "input_per_1k_toman": 279.45,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 275.55,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "gemini",
       "model": "gemini-robotics-er-1.5-preview",
-      "input_per_1k_toman": 67.068,
-      "output_per_1k_toman": 558.9
+      "input_per_1k_toman": 66.132,
+      "output_per_1k_toman": 551.1
     },
     {
       "provider": "gemini",
       "model": "nano-banana-pro-preview",
-      "input_per_1k_toman": 447.12,
-      "output_per_1k_toman": 26827.2
+      "input_per_1k_toman": 440.88,
+      "output_per_1k_toman": 26452.8
     },
     {
       "provider": "openai",
       "model": "chatgpt-4o-latest",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "openai",
       "model": "ft:gpt-3.5-turbo",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 1341.36
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 1322.64
     },
     {
       "provider": "openai",
       "model": "ft:gpt-3.5-turbo-0125",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 1341.36
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 1322.64
     },
     {
       "provider": "openai",
       "model": "ft:gpt-3.5-turbo-0613",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 1341.36
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 1322.64
     },
     {
       "provider": "openai",
       "model": "ft:gpt-3.5-turbo-1106",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 1341.36
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 1322.64
     },
     {
       "provider": "openai",
       "model": "ft:gpt-4-0613",
-      "input_per_1k_toman": 6706.8,
-      "output_per_1k_toman": 13413.6
+      "input_per_1k_toman": 6613.2,
+      "output_per_1k_toman": 13226.4
     },
     {
       "provider": "openai",
       "model": "ft:gpt-4.1-2025-04-14",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 2682.72
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 2645.28
     },
     {
       "provider": "openai",
       "model": "ft:gpt-4.1-mini-2025-04-14",
-      "input_per_1k_toman": 178.848,
-      "output_per_1k_toman": 715.392
+      "input_per_1k_toman": 176.352,
+      "output_per_1k_toman": 705.408
     },
     {
       "provider": "openai",
       "model": "ft:gpt-4.1-nano-2025-04-14",
-      "input_per_1k_toman": 44.712,
-      "output_per_1k_toman": 178.848
+      "input_per_1k_toman": 44.088,
+      "output_per_1k_toman": 176.352
     },
     {
       "provider": "openai",
       "model": "ft:gpt-4o-2024-08-06",
-      "input_per_1k_toman": 838.35,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 826.65,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "openai",
       "model": "ft:gpt-4o-2024-11-20",
-      "input_per_1k_toman": 838.35,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 826.65,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "openai",
       "model": "ft:gpt-4o-mini-2024-07-18",
-      "input_per_1k_toman": 67.068,
-      "output_per_1k_toman": 268.272
+      "input_per_1k_toman": 66.132,
+      "output_per_1k_toman": 264.528
     },
     {
       "provider": "openai",
       "model": "ft:o4-mini-2025-04-16",
-      "input_per_1k_toman": 894.24,
-      "output_per_1k_toman": 3576.96
+      "input_per_1k_toman": 881.76,
+      "output_per_1k_toman": 3527.04
     },
     {
       "provider": "openai",
       "model": "gpt-3.5-turbo",
-      "input_per_1k_toman": 111.78,
-      "output_per_1k_toman": 335.34
+      "input_per_1k_toman": 110.22,
+      "output_per_1k_toman": 330.66
     },
     {
       "provider": "openai",
       "model": "gpt-3.5-turbo-0125",
-      "input_per_1k_toman": 111.78,
-      "output_per_1k_toman": 335.34
+      "input_per_1k_toman": 110.22,
+      "output_per_1k_toman": 330.66
     },
     {
       "provider": "openai",
       "model": "gpt-3.5-turbo-1106",
-      "input_per_1k_toman": 223.56,
-      "output_per_1k_toman": 447.12
+      "input_per_1k_toman": 220.44,
+      "output_per_1k_toman": 440.88
     },
     {
       "provider": "openai",
       "model": "gpt-3.5-turbo-16k",
-      "input_per_1k_toman": 670.68,
-      "output_per_1k_toman": 894.24
+      "input_per_1k_toman": 661.32,
+      "output_per_1k_toman": 881.76
     },
     {
       "provider": "openai",
       "model": "gpt-4",
-      "input_per_1k_toman": 6706.8,
-      "output_per_1k_toman": 13413.6
+      "input_per_1k_toman": 6613.2,
+      "output_per_1k_toman": 13226.4
     },
     {
       "provider": "openai",
       "model": "gpt-4-0125-preview",
-      "input_per_1k_toman": 2235.6,
-      "output_per_1k_toman": 6706.8
+      "input_per_1k_toman": 2204.4,
+      "output_per_1k_toman": 6613.2
     },
     {
       "provider": "openai",
       "model": "gpt-4-0314",
-      "input_per_1k_toman": 6706.8,
-      "output_per_1k_toman": 13413.6
+      "input_per_1k_toman": 6613.2,
+      "output_per_1k_toman": 13226.4
     },
     {
       "provider": "openai",
       "model": "gpt-4-0613",
-      "input_per_1k_toman": 6706.8,
-      "output_per_1k_toman": 13413.6
+      "input_per_1k_toman": 6613.2,
+      "output_per_1k_toman": 13226.4
     },
     {
       "provider": "openai",
       "model": "gpt-4-1106-preview",
-      "input_per_1k_toman": 2235.6,
-      "output_per_1k_toman": 6706.8
+      "input_per_1k_toman": 2204.4,
+      "output_per_1k_toman": 6613.2
     },
     {
       "provider": "openai",
       "model": "gpt-4-turbo",
-      "input_per_1k_toman": 2235.6,
-      "output_per_1k_toman": 6706.8
+      "input_per_1k_toman": 2204.4,
+      "output_per_1k_toman": 6613.2
     },
     {
       "provider": "openai",
       "model": "gpt-4-turbo-2024-04-09",
-      "input_per_1k_toman": 2235.6,
-      "output_per_1k_toman": 6706.8
+      "input_per_1k_toman": 2204.4,
+      "output_per_1k_toman": 6613.2
     },
     {
       "provider": "openai",
       "model": "gpt-4-turbo-preview",
-      "input_per_1k_toman": 2235.6,
-      "output_per_1k_toman": 6706.8
+      "input_per_1k_toman": 2204.4,
+      "output_per_1k_toman": 6613.2
     },
     {
       "provider": "openai",
       "model": "gpt-4.1",
-      "input_per_1k_toman": 447.12,
-      "output_per_1k_toman": 1788.48
+      "input_per_1k_toman": 440.88,
+      "output_per_1k_toman": 1763.52
     },
     {
       "provider": "openai",
       "model": "gpt-4.1-2025-04-14",
-      "input_per_1k_toman": 447.12,
-      "output_per_1k_toman": 1788.48
+      "input_per_1k_toman": 440.88,
+      "output_per_1k_toman": 1763.52
     },
     {
       "provider": "openai",
       "model": "gpt-4.1-mini",
-      "input_per_1k_toman": 89.424,
-      "output_per_1k_toman": 357.696
+      "input_per_1k_toman": 88.176,
+      "output_per_1k_toman": 352.704
     },
     {
       "provider": "openai",
       "model": "gpt-4.1-mini-2025-04-14",
-      "input_per_1k_toman": 89.424,
-      "output_per_1k_toman": 357.696
+      "input_per_1k_toman": 88.176,
+      "output_per_1k_toman": 352.704
     },
     {
       "provider": "openai",
       "model": "gpt-4.1-nano",
-      "input_per_1k_toman": 22.356,
-      "output_per_1k_toman": 89.424
+      "input_per_1k_toman": 22.044,
+      "output_per_1k_toman": 88.176
     },
     {
       "provider": "openai",
       "model": "gpt-4.1-nano-2025-04-14",
-      "input_per_1k_toman": 22.356,
-      "output_per_1k_toman": 89.424
+      "input_per_1k_toman": 22.044,
+      "output_per_1k_toman": 88.176
     },
     {
       "provider": "openai",
       "model": "gpt-4o",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-4o-2024-05-13",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "openai",
       "model": "gpt-4o-2024-08-06",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-4o-2024-11-20",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-4o-audio-preview",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-4o-audio-preview-2024-12-17",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-4o-audio-preview-2025-06-03",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini",
-      "input_per_1k_toman": 33.534,
-      "output_per_1k_toman": 134.136
+      "input_per_1k_toman": 33.066,
+      "output_per_1k_toman": 132.264
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini-2024-07-18",
-      "input_per_1k_toman": 33.534,
-      "output_per_1k_toman": 134.136
+      "input_per_1k_toman": 33.066,
+      "output_per_1k_toman": 132.264
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini-audio-preview",
-      "input_per_1k_toman": 33.534,
-      "output_per_1k_toman": 134.136
+      "input_per_1k_toman": 33.066,
+      "output_per_1k_toman": 132.264
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini-audio-preview-2024-12-17",
-      "input_per_1k_toman": 33.534,
-      "output_per_1k_toman": 134.136
+      "input_per_1k_toman": 33.066,
+      "output_per_1k_toman": 132.264
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini-realtime-preview",
-      "input_per_1k_toman": 134.136,
-      "output_per_1k_toman": 536.544
+      "input_per_1k_toman": 132.264,
+      "output_per_1k_toman": 529.056
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini-realtime-preview-2024-12-17",
-      "input_per_1k_toman": 134.136,
-      "output_per_1k_toman": 536.544
+      "input_per_1k_toman": 132.264,
+      "output_per_1k_toman": 529.056
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini-search-preview",
-      "input_per_1k_toman": 33.534,
-      "output_per_1k_toman": 134.136
+      "input_per_1k_toman": 33.066,
+      "output_per_1k_toman": 132.264
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini-search-preview-2025-03-11",
-      "input_per_1k_toman": 33.534,
-      "output_per_1k_toman": 134.136
+      "input_per_1k_toman": 33.066,
+      "output_per_1k_toman": 132.264
     },
     {
       "provider": "openai",
       "model": "gpt-4o-realtime-preview",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 4471.2
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 4408.8
     },
     {
       "provider": "openai",
       "model": "gpt-4o-realtime-preview-2024-12-17",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 4471.2
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 4408.8
     },
     {
       "provider": "openai",
       "model": "gpt-4o-realtime-preview-2025-06-03",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 4471.2
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 4408.8
     },
     {
       "provider": "openai",
       "model": "gpt-4o-search-preview",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-4o-search-preview-2025-03-11",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-5",
-      "input_per_1k_toman": 279.45,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 275.55,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-5-2025-08-07",
-      "input_per_1k_toman": 279.45,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 275.55,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-5-chat",
-      "input_per_1k_toman": 279.45,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 275.55,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-5-chat-latest",
-      "input_per_1k_toman": 279.45,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 275.55,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-5-mini",
-      "input_per_1k_toman": 55.89,
-      "output_per_1k_toman": 447.12
+      "input_per_1k_toman": 55.11,
+      "output_per_1k_toman": 440.88
     },
     {
       "provider": "openai",
       "model": "gpt-5-mini-2025-08-07",
-      "input_per_1k_toman": 55.89,
-      "output_per_1k_toman": 447.12
+      "input_per_1k_toman": 55.11,
+      "output_per_1k_toman": 440.88
     },
     {
       "provider": "openai",
       "model": "gpt-5-nano",
-      "input_per_1k_toman": 11.178,
-      "output_per_1k_toman": 89.424
+      "input_per_1k_toman": 11.022,
+      "output_per_1k_toman": 88.176
     },
     {
       "provider": "openai",
       "model": "gpt-5-nano-2025-08-07",
-      "input_per_1k_toman": 11.178,
-      "output_per_1k_toman": 89.424
+      "input_per_1k_toman": 11.022,
+      "output_per_1k_toman": 88.176
     },
     {
       "provider": "openai",
       "model": "gpt-5-search-api",
-      "input_per_1k_toman": 279.45,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 275.55,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-5-search-api-2025-10-14",
-      "input_per_1k_toman": 279.45,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 275.55,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-5.1",
-      "input_per_1k_toman": 279.45,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 275.55,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-5.1-2025-11-13",
-      "input_per_1k_toman": 279.45,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 275.55,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-5.1-chat-latest",
-      "input_per_1k_toman": 279.45,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 275.55,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-5.1-mini",
-      "input_per_1k_toman": 55.89,
-      "output_per_1k_toman": 447.12
+      "input_per_1k_toman": 55.11,
+      "output_per_1k_toman": 440.88
     },
     {
       "provider": "openai",
       "model": "gpt-5.1-nano",
-      "input_per_1k_toman": 11.178,
-      "output_per_1k_toman": 89.424
+      "input_per_1k_toman": 11.022,
+      "output_per_1k_toman": 88.176
     },
     {
       "provider": "openai",
       "model": "gpt-5.2",
-      "input_per_1k_toman": 391.23,
-      "output_per_1k_toman": 3129.84
+      "input_per_1k_toman": 385.77,
+      "output_per_1k_toman": 3086.16
     },
     {
       "provider": "openai",
       "model": "gpt-5.2-2025-12-11",
-      "input_per_1k_toman": 391.23,
-      "output_per_1k_toman": 3129.84
+      "input_per_1k_toman": 385.77,
+      "output_per_1k_toman": 3086.16
     },
     {
       "provider": "openai",
       "model": "gpt-5.2-chat-latest",
-      "input_per_1k_toman": 391.23,
-      "output_per_1k_toman": 3129.84
+      "input_per_1k_toman": 385.77,
+      "output_per_1k_toman": 3086.16
     },
     {
       "provider": "openai",
       "model": "gpt-5.2-mini",
-      "input_per_1k_toman": 55.89,
-      "output_per_1k_toman": 447.12
+      "input_per_1k_toman": 55.11,
+      "output_per_1k_toman": 440.88
     },
     {
       "provider": "openai",
       "model": "gpt-5.2-nano",
-      "input_per_1k_toman": 11.178,
-      "output_per_1k_toman": 89.424
+      "input_per_1k_toman": 11.022,
+      "output_per_1k_toman": 88.176
     },
     {
       "provider": "openai",
       "model": "gpt-5.3-chat-latest",
-      "input_per_1k_toman": 391.23,
-      "output_per_1k_toman": 3129.84
+      "input_per_1k_toman": 385.77,
+      "output_per_1k_toman": 3086.16
     },
     {
       "provider": "openai",
       "model": "gpt-5.4",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "openai",
       "model": "gpt-5.4-2026-03-05",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "openai",
       "model": "gpt-5.4-mini",
-      "input_per_1k_toman": 167.67,
-      "output_per_1k_toman": 1006.02
+      "input_per_1k_toman": 165.33,
+      "output_per_1k_toman": 991.98
     },
     {
       "provider": "openai",
       "model": "gpt-5.4-mini-2026-03-17",
-      "input_per_1k_toman": 167.67,
-      "output_per_1k_toman": 1006.02
+      "input_per_1k_toman": 165.33,
+      "output_per_1k_toman": 991.98
     },
     {
       "provider": "openai",
       "model": "gpt-5.4-nano",
-      "input_per_1k_toman": 44.712,
-      "output_per_1k_toman": 279.45
+      "input_per_1k_toman": 44.088,
+      "output_per_1k_toman": 275.55
     },
     {
       "provider": "openai",
       "model": "gpt-5.4-nano-2026-03-17",
-      "input_per_1k_toman": 44.712,
-      "output_per_1k_toman": 279.45
+      "input_per_1k_toman": 44.088,
+      "output_per_1k_toman": 275.55
     },
     {
       "provider": "openai",
       "model": "gpt-5.5",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 6706.8
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 6613.2
     },
     {
       "provider": "openai",
       "model": "gpt-5.5-2026-04-23",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 6706.8
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 6613.2
     },
     {
       "provider": "openai",
       "model": "gpt-5.6",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 6706.8
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 6613.2
     },
     {
       "provider": "openai",
       "model": "gpt-5.6-luna",
-      "input_per_1k_toman": 223.56,
-      "output_per_1k_toman": 1341.36
+      "input_per_1k_toman": 220.44,
+      "output_per_1k_toman": 1322.64
     },
     {
       "provider": "openai",
       "model": "gpt-5.6-sol",
-      "input_per_1k_toman": 1117.8,
-      "output_per_1k_toman": 6706.8
+      "input_per_1k_toman": 1102.2,
+      "output_per_1k_toman": 6613.2
     },
     {
       "provider": "openai",
       "model": "gpt-5.6-terra",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 3353.4
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 3306.6
     },
     {
       "provider": "openai",
       "model": "gpt-audio",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-audio-1.5",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-audio-2025-08-28",
-      "input_per_1k_toman": 558.9,
-      "output_per_1k_toman": 2235.6
+      "input_per_1k_toman": 551.1,
+      "output_per_1k_toman": 2204.4
     },
     {
       "provider": "openai",
       "model": "gpt-audio-mini",
-      "input_per_1k_toman": 134.136,
-      "output_per_1k_toman": 536.544
+      "input_per_1k_toman": 132.264,
+      "output_per_1k_toman": 529.056
     },
     {
       "provider": "openai",
       "model": "gpt-audio-mini-2025-10-06",
-      "input_per_1k_toman": 134.136,
-      "output_per_1k_toman": 536.544
+      "input_per_1k_toman": 132.264,
+      "output_per_1k_toman": 529.056
     },
     {
       "provider": "openai",
       "model": "gpt-audio-mini-2025-12-15",
-      "input_per_1k_toman": 134.136,
-      "output_per_1k_toman": 536.544
+      "input_per_1k_toman": 132.264,
+      "output_per_1k_toman": 529.056
     },
     {
       "provider": "openai",
       "model": "gpt-realtime",
-      "input_per_1k_toman": 894.24,
-      "output_per_1k_toman": 3576.96
+      "input_per_1k_toman": 881.76,
+      "output_per_1k_toman": 3527.04
     },
     {
       "provider": "openai",
       "model": "gpt-realtime-1.5",
-      "input_per_1k_toman": 894.24,
-      "output_per_1k_toman": 3576.96
+      "input_per_1k_toman": 881.76,
+      "output_per_1k_toman": 3527.04
     },
     {
       "provider": "openai",
       "model": "gpt-realtime-2",
-      "input_per_1k_toman": 894.24,
-      "output_per_1k_toman": 3576.96
+      "input_per_1k_toman": 881.76,
+      "output_per_1k_toman": 3527.04
     },
     {
       "provider": "openai",
       "model": "gpt-realtime-2.1",
-      "input_per_1k_toman": 894.24,
-      "output_per_1k_toman": 5365.44
+      "input_per_1k_toman": 881.76,
+      "output_per_1k_toman": 5290.56
     },
     {
       "provider": "openai",
       "model": "gpt-realtime-2.1-mini",
-      "input_per_1k_toman": 134.136,
-      "output_per_1k_toman": 536.544
+      "input_per_1k_toman": 132.264,
+      "output_per_1k_toman": 529.056
     },
     {
       "provider": "openai",
       "model": "gpt-realtime-2025-08-28",
-      "input_per_1k_toman": 894.24,
-      "output_per_1k_toman": 3576.96
+      "input_per_1k_toman": 881.76,
+      "output_per_1k_toman": 3527.04
     },
     {
       "provider": "openai",
       "model": "gpt-realtime-mini",
-      "input_per_1k_toman": 134.136,
-      "output_per_1k_toman": 536.544
+      "input_per_1k_toman": 132.264,
+      "output_per_1k_toman": 529.056
     },
     {
       "provider": "openai",
       "model": "gpt-realtime-mini-2025-10-06",
-      "input_per_1k_toman": 134.136,
-      "output_per_1k_toman": 536.544
+      "input_per_1k_toman": 132.264,
+      "output_per_1k_toman": 529.056
     },
     {
       "provider": "openai",
       "model": "gpt-realtime-mini-2025-12-15",
-      "input_per_1k_toman": 134.136,
-      "output_per_1k_toman": 536.544
+      "input_per_1k_toman": 132.264,
+      "output_per_1k_toman": 529.056
     },
     {
       "provider": "openai",
       "model": "o1",
-      "input_per_1k_toman": 3353.4,
-      "output_per_1k_toman": 13413.6
+      "input_per_1k_toman": 3306.6,
+      "output_per_1k_toman": 13226.4
     },
     {
       "provider": "openai",
       "model": "o1-2024-12-17",
-      "input_per_1k_toman": 3353.4,
-      "output_per_1k_toman": 13413.6
+      "input_per_1k_toman": 3306.6,
+      "output_per_1k_toman": 13226.4
     },
     {
       "provider": "openai",
       "model": "o1-mini",
-      "input_per_1k_toman": 245.916,
-      "output_per_1k_toman": 983.664
+      "input_per_1k_toman": 242.484,
+      "output_per_1k_toman": 969.936
     },
     {
       "provider": "openai",
       "model": "o3",
-      "input_per_1k_toman": 447.12,
-      "output_per_1k_toman": 1788.48
+      "input_per_1k_toman": 440.88,
+      "output_per_1k_toman": 1763.52
     },
     {
       "provider": "openai",
       "model": "o3-2025-04-16",
-      "input_per_1k_toman": 447.12,
-      "output_per_1k_toman": 1788.48
+      "input_per_1k_toman": 440.88,
+      "output_per_1k_toman": 1763.52
     },
     {
       "provider": "openai",
       "model": "o3-mini",
-      "input_per_1k_toman": 245.916,
-      "output_per_1k_toman": 983.664
+      "input_per_1k_toman": 242.484,
+      "output_per_1k_toman": 969.936
     },
     {
       "provider": "openai",
       "model": "o3-mini-2025-01-31",
-      "input_per_1k_toman": 245.916,
-      "output_per_1k_toman": 983.664
+      "input_per_1k_toman": 242.484,
+      "output_per_1k_toman": 969.936
     },
     {
       "provider": "openai",
       "model": "o4-mini",
-      "input_per_1k_toman": 245.916,
-      "output_per_1k_toman": 983.664
+      "input_per_1k_toman": 242.484,
+      "output_per_1k_toman": 969.936
     },
     {
       "provider": "openai",
       "model": "o4-mini-2025-04-16",
-      "input_per_1k_toman": 245.916,
-      "output_per_1k_toman": 983.664
+      "input_per_1k_toman": 242.484,
+      "output_per_1k_toman": 969.936
     },
     {
       "provider": "openai",
       "model": "text-embedding-3-large",
-      "input_per_1k_toman": 29.0628,
+      "input_per_1k_toman": 28.6572,
       "output_per_1k_toman": 0.0
     },
     {
       "provider": "openai",
       "model": "text-embedding-3-small",
-      "input_per_1k_toman": 4.4712,
+      "input_per_1k_toman": 4.4088,
       "output_per_1k_toman": 0.0
     },
     {
       "provider": "openai",
       "model": "text-embedding-ada-002",
-      "input_per_1k_toman": 22.356,
+      "input_per_1k_toman": 22.044,
       "output_per_1k_toman": 0.0
     },
     {
       "provider": "openai",
       "model": "text-embedding-ada-002-v2",
-      "input_per_1k_toman": 22.356,
+      "input_per_1k_toman": 22.044,
       "output_per_1k_toman": 0.0
     }
   ]
