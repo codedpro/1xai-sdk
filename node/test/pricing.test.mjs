@@ -41,11 +41,16 @@ test("routing rule matches documented behaviour", () => {
 });
 
 test("cost arithmetic is exact", () => {
-  // gpt-4o-mini: 33.534 Toman / 1k in, 134.136 Toman / 1k out.
+  // Expectations are DERIVED from the snapshot, never hardcoded: these are
+  // Toman figures behind a daily FX rate, so a frozen constant turns every
+  // rate move into a red build (it did — the rate shifted under this test).
+  // What must hold is the arithmetic: n tokens cost n/1000 x the per-1k rate.
+  const row = findPrice("gpt-4o-mini");
+  assert.ok(row, "gpt-4o-mini must be in the snapshot");
   const estimate = estimateCost("gpt-4o-mini", 1000, 500);
-  close(estimate.inputToman, 33.534);
-  close(estimate.outputToman, 67.068);
-  close(estimate.totalToman, 100.602);
+  close(estimate.inputToman, row.input_per_1k_toman);
+  close(estimate.outputToman, row.output_per_1k_toman * 0.5);
+  close(estimate.totalToman, row.input_per_1k_toman + row.output_per_1k_toman * 0.5);
   assert.equal(estimate.provider, "openai");
   assert.equal(estimate.pricedFrom, "snapshot");
 });
@@ -61,7 +66,14 @@ test("duplicate model name resolves via the routing rule", () => {
   const price = findPrice("claude-3-5-haiku");
   assert.ok(price);
   assert.equal(price.provider, "anthropic");
-  close(price.input_per_1k_toman, 178.848);
+  // The POINT of this test is which of the two duplicate rows wins, not the
+  // absolute Toman figure — assert it differs from the Vertex resale row.
+  const vertex = allPrices().find(
+    (m) => m.model === "claude-3-5-haiku" && m.provider === "gemini");
+  if (vertex) {
+    assert.notEqual(price.input_per_1k_toman, vertex.input_per_1k_toman);
+  }
+  assert.ok(price.input_per_1k_toman > 0);
 });
 
 test("unknown model throws with suggestions", () => {
@@ -87,7 +99,9 @@ test("costOfResponse reads an SDK-shaped response", () => {
     model: "gpt-4o-mini",
     usage: { prompt_tokens: 1000, completion_tokens: 500 },
   };
-  close(costOfResponse(fake).totalToman, 100.602);
+  const row = findPrice("gpt-4o-mini");
+  close(costOfResponse(fake).totalToman,
+        row.input_per_1k_toman + row.output_per_1k_toman * 0.5);
   assert.match(formatCost(costOfResponse(fake)), /Toman/);
 });
 

@@ -41,11 +41,17 @@ def test_routing_rule_matches_documented_behaviour(model, provider):
 
 
 def test_cost_arithmetic_is_exact():
-    # gpt-4o-mini: 33.534 Toman / 1k in, 134.136 Toman / 1k out.
+    # Expectations are DERIVED from the snapshot, never hardcoded: these are
+    # Toman figures behind a daily FX rate, so a frozen constant turns every
+    # rate move into a red build (it did — the rate shifted under this test).
+    # What must hold is the arithmetic: n tokens cost n/1000 x the per-1k rate.
+    row = find_price("gpt-4o-mini")
+    assert row is not None, "gpt-4o-mini must be in the snapshot"
     estimate = estimate_cost("gpt-4o-mini", 1000, 500)
-    assert estimate.input_toman == pytest.approx(33.534)
-    assert estimate.output_toman == pytest.approx(67.068)
-    assert estimate.total_toman == pytest.approx(100.602)
+    assert estimate.input_toman == pytest.approx(row.input_per_1k_toman)
+    assert estimate.output_toman == pytest.approx(row.output_per_1k_toman * 0.5)
+    assert estimate.total_toman == pytest.approx(
+        row.input_per_1k_toman + row.output_per_1k_toman * 0.5)
     assert estimate.provider == "openai"
 
 
@@ -60,7 +66,14 @@ def test_duplicate_model_name_resolves_via_routing_rule():
     price = find_price("claude-3-5-haiku")
     assert price is not None
     assert price.provider == "anthropic"
-    assert price.input_per_1k_toman == pytest.approx(178.848)
+    # The POINT is which of the two duplicate rows wins, not the absolute
+    # Toman figure — assert it differs from the Vertex resale row.
+    vertex = next(
+        (m for m in all_prices()
+         if m.model == "claude-3-5-haiku" and m.provider == "gemini"), None)
+    if vertex is not None:
+        assert price.input_per_1k_toman != pytest.approx(vertex.input_per_1k_toman)
+    assert price.input_per_1k_toman > 0
 
 
 def test_unknown_model_raises_with_suggestions():
@@ -85,7 +98,9 @@ def test_cost_of_response_reads_usage_dict():
         "model": "gpt-4o-mini",
         "usage": {"prompt_tokens": 1000, "completion_tokens": 500},
     }
-    assert cost_of_response(fake).total_toman == pytest.approx(100.602)
+    row = find_price("gpt-4o-mini")
+    assert cost_of_response(fake).total_toman == pytest.approx(
+        row.input_per_1k_toman + row.output_per_1k_toman * 0.5)
 
 
 class _FakeUsage:
@@ -101,7 +116,10 @@ class _FakeResponse:
 def test_cost_of_response_reads_sdk_objects():
     from onexai import cost_of_response
 
-    assert cost_of_response(_FakeResponse()).total_toman == pytest.approx(67.068)
+    row = find_price("gpt-4o-mini")
+    # 2000 prompt tokens, no completion -> exactly 2x the per-1k input rate.
+    assert cost_of_response(_FakeResponse()).total_toman == pytest.approx(
+        row.input_per_1k_toman * 2)
 
 
 def test_missing_key_message_names_the_env_vars():
