@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "verbatimModuleSyntax": false,
+    // Declarations are emitted here too, on purpose. dist/cjs/package.json
+    // marks the folder "commonjs", so TypeScript reads these .d.ts files as
+    // CommonJS declarations -- which is what a `require()` consumer under
+    // node16/nodenext resolution needs. Without them, CJS consumers resolve the
+    // ESM .d.ts and get TS1479.
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "dist/cjs"
+  },
+  "exclude": ["src/cli.ts"]
+}

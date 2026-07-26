@@ -1,0 +1,80 @@
+{
+  "name": "onexai",
+  "version": "0.1.0",
+  "description": "Thin, drop-in SDK for the 1xAi gateway (https://1xai.ir) — OpenAI, Claude, Gemini and DeepSeek from inside Iran, billed in Toman.",
+  "keywords": [
+    "1xai",
+    "1xai.ir",
+    "openai",
+    "anthropic",
+    "claude",
+    "gemini",
+    "deepseek",
+    "llm",
+    "ai",
+    "iran",
+    "persian",
+    "farsi",
+    "toman",
+    "gateway",
+    "openai-compatible",
+    "proxy"
+  ],
+  "homepage": "https://1xai.ir",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedpro/1xai-sdk.git",
+    "directory": "node"
+  },
+  "bugs": {
+    "url": "https://github.com/codedpro/1xai-sdk/issues"
+  },
+  "license": "MIT",
+  "author": "1xAi <support@1xai.ir> (https://1xai.ir)",
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "bin": {
+    "onexai": "./dist/esm/cli.js"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/esm/index.js"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.ts",
+        "default": "./dist/cjs/index.js"
+      },
+      "default": "./dist/esm/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "npm run clean && tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json && node scripts/fixup.mjs",
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
+    "typecheck": "tsc -p tsconfig.esm.json --noEmit",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "prepublishOnly": "npm run build && node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "openai": ">=4.60.0 <7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

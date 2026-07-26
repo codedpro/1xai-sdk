@@ -1,0 +1,48 @@
+# --- secrets: never commit a key -------------------------------------------
+.env
+.env.*
+!.env.example
+*.key
+secrets.json
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Node ------------------------------------------------------------------
+node_modules/
+node/dist/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+
+# --- editors / OS ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- example scratch output ------------------------------------------------
+out.png
+reply.mp3
+*.m4a
+*.mp3
+!examples/**/fixtures/*.mp3

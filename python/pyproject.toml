@@ -1,0 +1,72 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "onexai"
+version = "0.1.0"
+description = "Thin, drop-in Python SDK for the 1xAi gateway (https://1xai.ir) — OpenAI, Claude, Gemini and DeepSeek from inside Iran, billed in Toman."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "1xAi", email = "support@1xai.ir" }]
+keywords = [
+    "1xai",
+    "1xai.ir",
+    "openai",
+    "anthropic",
+    "claude",
+    "gemini",
+    "deepseek",
+    "llm",
+    "iran",
+    "persian",
+    "farsi",
+    "toman",
+    "api-gateway",
+    "openai-compatible",
+    "proxy",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Natural Language :: Persian",
+    "Natural Language :: English",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = ["openai>=1.40.0"]
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=0.40.0"]
+gemini = ["google-genai>=1.0.0"]
+all = ["anthropic>=0.40.0", "google-genai>=1.0.0"]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://1xai.ir"
+Documentation = "https://1xai.ir/docs"
+Repository = "https://github.com/codedpro/1xai-sdk"
+Issues = "https://github.com/codedpro/1xai-sdk/issues"
+Pricing = "https://1xai.ir/pricing"
+Changelog = "https://github.com/codedpro/1xai-sdk/blob/main/CHANGELOG.md"
+
+[project.scripts]
+onexai = "onexai.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/onexai"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/onexai", "tests", "README.md", "LICENSE"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["live: hits the public 1xAi endpoints (no API key required)"]
